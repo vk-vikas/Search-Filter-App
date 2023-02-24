@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { users } from './users';
 
 function App() {
   return (
     <div className="App">
-      hello world
+      <input type='text' placeholder='search' />
+      <ul>
+        {users.map(i => (
+          <li key={i.id}>{i.first_name}</li>
+        ))}
+      </ul>
     </div>
   );
 }
