@@ -1,0 +1,11 @@
+td {
+    opacity: 0.8;
+    padding: 1rem 2rem;
+}
+th {
+    padding: 1rem 2rem;
+}
+
+table {
+    margin: 30px 0;
+}
